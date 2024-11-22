@@ -23,3 +23,9 @@ Domande da  farsi quando si crea una funzione:
 1. inserisco una parola in input
 2. creo una funzione che mi confronti la parola inserita con la stessa parola al contrario, converto tutto in lowerCase per non avere problemi con le maiuscole
 3. utilizzo la funzione con un if dato che mi da in output un valore booleano
+
+1. inserisco la scelta (pari o dispari) e la converto in lowerCase per non avere problemi
+2. creo la funzione che mi genera il numero random da 1 a 5
+3. creo la funzione che mi controlla se un numero in input è pari
+4. il pc crea il numero random, lo somma con il numero dell'utente e controllo che sia pari o dispari
+5. mando i vari messaggi in output e controllo se l'utente ha vinto o ha perso
