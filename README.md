@@ -1,72 +1,25 @@
-Title
-===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+**Palidroma**
+Chiedere all’utente di inserire una parola
+Creare una funzione per capire se la parola inserita è palindroma
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+**Pari e Dispari**
+L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+Sommiamo i due numeri
+Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+Dichiariamo chi ha vinto.
 
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
+**Consigli del giorno**
+1. Scriviamo sempre in italiano i passaggi che vogliamo fare
+2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
 
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+Domande da  farsi quando si crea una funzione:
+1. Come dovrebbe chiamarsi?
+2. Ho bisogno di parametri?
+3. Devo restituire un valore?
+4. Se sì, di che tipo?
 
-
-## Directory Hierarchy
-```
-|—— index.html
-|—— script.js
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+**logica**
+1. inserisco una parola in input
+2. creo una funzione che mi confronti la parola inserita con la stessa parola al contrario, converto tutto in lowerCase per non avere problemi con le maiuscole
+3. utilizzo la funzione con un if dato che mi da in output un valore booleano
